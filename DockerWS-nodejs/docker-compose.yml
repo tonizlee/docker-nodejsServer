@@ -1,0 +1,15 @@
+version: '3'
+services: 
+  web:
+    container_name: test-nodejs-server
+    build: .
+    ports:
+     - "3000:3000"
+    image: "leesw/dockertest-node-mysql"
+  db:
+    image: "leesw/nodejs-mysql"
+    container_name: test-mysql
+    ports:
+      - "3306:3306"
+
+    
