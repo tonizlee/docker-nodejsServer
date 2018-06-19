@@ -1,5 +1,5 @@
 var http = require('http');
-
+/*
 var mysql = require('mysql');
 var connection = mysql.createConnection({
     host:"localhost",
@@ -13,7 +13,7 @@ connection.query('select * from TestTB', function (err, rows, fields)
 {
     console.log(rows);
 });
-
+*/
 // 웹 서버 객체를 만듭니다.
 var server = http.createServer();
 
