@@ -5,7 +5,7 @@ services:
     build: .
     ports:
      - "3000:3000"
-    image: "leesw/dockertest-node-mysql"
+    image: "leesw/docker-nodejsserver"
   db:
     image: "leesw/nodejs-mysql"
     container_name: test-mysql
